@@ -1,4 +1,4 @@
-/* @import "toastify-js/src/toastify.css"; */
+@import "toastify-js/src/toastify.css";
 
 @import "./reset.css";
 @import "./variables.css";
@@ -6,7 +6,8 @@
 
 body {
   background-color: var(--color-white-bis);
-  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
   color: var(--color-gray-darker);
 }
 
@@ -23,7 +24,7 @@ main {
   border: 1px solid var(--color-gray-lighter);
   border-radius: 3px;
   padding: 2rem;
-  width: 400px;
+  width: auto;
 }
 
 .hero .logo {
