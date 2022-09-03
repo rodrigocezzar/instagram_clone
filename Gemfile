@@ -20,6 +20,8 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'rails-i18n', '~> 7.0', '>= 7.0.5'
+gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'devise-i18n', '~> 1.10', '>= 1.10.2'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
