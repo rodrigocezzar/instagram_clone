@@ -8,6 +8,7 @@ import * as ActiveStorage from "@rails/activestorage";
 import "channels";
 import "../src/application.css";
 import "./flashMessage.js";
+import "./modal.js";
 
 Rails.start();
 ActiveStorage.start();
