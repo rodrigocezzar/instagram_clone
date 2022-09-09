@@ -1,7 +1,11 @@
 <main class="container">
   <%= form_with model: current_user, url: profile_path, local: true, class:
       "edit_profile" do |form| %>
-      <h1>Editaer seu perfil</h1>
+      <h1>Editar seu perfil</h1>
+
+      <div class="field">
+        <%= form.file_field :avatar %>
+      </div>
 
       <div class="field">
         <%= form.text_field :name, placeholder: 'Nome' %>
