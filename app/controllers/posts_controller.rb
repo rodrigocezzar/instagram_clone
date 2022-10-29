@@ -5,7 +5,7 @@ class PostsController < ApplicationController
   before_action :set_suggested_users, only: %i[index]
 
   def index
-    @posts = Post.all.order(created_at: :desc)
+    @posts = Post.all
   end
 
   def show
