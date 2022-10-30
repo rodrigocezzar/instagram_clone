@@ -9,6 +9,6 @@ import "channels";
 import "../src/application.css";
 import "./flashMessage.js";
 import "./modal.js";
-
+import "./likes.js";
 Rails.start();
 ActiveStorage.start();
