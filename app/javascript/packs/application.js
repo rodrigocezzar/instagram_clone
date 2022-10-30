@@ -10,5 +10,8 @@ import "../src/application.css";
 import "./flashMessage.js";
 import "./modal.js";
 import "./likes.js";
+require("trix");
+require("@rails/actiontext");
+
 Rails.start();
 ActiveStorage.start();
